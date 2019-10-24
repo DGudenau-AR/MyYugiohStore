@@ -1,0 +1,105 @@
+﻿body
+{
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+    font-weight:normal;
+}
+
+.Legal
+{
+    font-family:Arial;
+    font-size:9pt;
+    color:#0000ff;
+    font-weight:normal;
+    background-color:#A9D0F5;
+}
+
+.Legal:Hover
+{
+    font-family:Arial;
+    font-size:9pt;
+    color:#ff0000;
+    font-weight:normal;
+    background-color:#A9D0F5;
+}
+
+.Copyright
+{
+    font-family:Arial;
+    font-size:8pt;
+    color:#c0c0c0;
+    font-weight:normal;
+    background-color:#ffffff;
+    text-align:center;
+}
+
+.Buttons
+{
+    font-family:Arial;
+    font-size:8pt;
+    color:#0000ff;
+    font-weight:normal;
+    background-color:#ffffff;
+    text-align:center;
+}
+
+.Buttons:Hover
+{
+    font-family:Arial;
+    font-size:8pt;
+    color:#ff0000;
+    font-weight:normal;
+    background-color:#ffffff;
+    text-align:center;
+}
+
+.PageHeader
+{
+    font-family:Arial;
+    font-size:11pt;
+    color:#0000ff;
+    font-weight:normal;
+    background-color:#ffffff;
+    text-align:left;
+}
+
+.UserInfo
+{
+    font-family:Arial;
+    font-size:11pt;
+    color:#000000;
+    font-weight:normal;
+    background-color:#ffffff;
+    text-align:left;
+}
+
+.FormText
+{
+    font-family:Arial;
+    font-size:10pt;
+    color:#000000;
+    font-weight:normal;
+    text-align:left;
+    background-color:#ffffff;
+}
+
+.Alert
+{
+    font-family:Arial;
+    font-size:10pt;
+    color:#ff0000;
+    font-weight:normal;
+    text-align:left;
+    background-color:#ffffff;
+}
+
+.Links
+{
+    font-family:Arial;
+    font-size:8pt;
+    color:#000000;
+    font-weight:normal;
+    text-align:left;
+    background-color:#a0b0c0;
+}

@@ -1,0 +1,10 @@
+C:\Users\Dennis\Documents\Visual Studio 2008\Projects\MyYugiohStore\bin\MyYugiohStore.dll
+C:\Users\Dennis\Documents\Visual Studio 2008\Projects\MyYugiohStore\bin\MyYugiohStore.pdb
+C:\Users\Dennis\Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dennis\Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\MyYugiohStore.dll
+C:\Users\Dennis\Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\MyYugiohStore.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\bin\MyYugiohStore.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\bin\MyYugiohStore.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\MyYugiohStore.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\MyYugiohStore.pdb

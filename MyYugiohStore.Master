@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyYugiohStore.master.cs" Inherits="MyYugiohStore.MyYugiohStore" %>
+<%@ Register src="Copyright.ascx" tagname="Copyright" tagprefix="uc1" %>
+<%@ Register src="Legal.ascx" tagname="Legal" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>MyYugiohStore</title>
+    <link rel="Stylesheet" href="MyYugiohStore.css" type="text/css" />
+    <script language="javascript" type="text/javascript">
+        function DoPopup() 
+        {
+            window.open('SpecialItem.aspx?f=1','mywindow','width=400,height=200');
+        }
+        function confirm_delete() {
+            if (confirm("Are you sure you want to delete all items?") == true) {
+                document.location = "ShoppingCart.aspx?m=y";
+                return true;
+            }
+            else
+                return false;
+        }
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="logo">
+            <asp:ImageButton ID="imgLogo" runat="server" ImageUrl="~/images/home.jpg" 
+                PostBackUrl="~/Index.aspx" CausesValidation="False" Width="100%" />
+        </div>
+
+        <div id="Menu">
+            <table border="0" cellpadding="5" cellspacing="0" width="100%">
+                <tr>
+                    <td bgcolor="#B5C7DE">
+                        <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" 
+                            DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                            ForeColor="#284E98" Orientation="Horizontal" StaticSubMenuIndent="10px" 
+                            Width="80%">
+                            <StaticSelectedStyle BackColor="#507CD1" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <DynamicMenuStyle BackColor="#B5C7DE" />
+                            <DynamicSelectedStyle BackColor="#507CD1" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~/Index.aspx" Text="Home" Value="Home">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Categories.aspx" Text="Categories" 
+                                    Value="Categories"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ShoppingCart.aspx?m=n" Text="Shopping Cart" 
+                                    Value="Shopping Cart"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/OrderHistory.aspx" Text="Order History" 
+                                    Value="Order History"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>                    
+                    </td>
+                    <td align="right" bgcolor="#B5C7DE">
+                        <asp:Label ID="lblLoginMsg" runat="server" Text="Welcome " Visible="False"></asp:Label>
+                        <asp:LoginName ID="LoginName1" runat="server" />
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="Content">
+            <table cellpadding="5" cellspacing="0" border="0" width="100%" class="Links">
+                <tr>
+                    <td valign="top" width="20%">Links
+                        <br /><br />
+                        <asp:HyperLink ID="HyperLink1" runat="server" 
+                            NavigateUrl="http://www.yugioh-card.com/en" Target="_blank">Official Konami US Yu-Gi-Oh! Web Site </asp:HyperLink>
+                        <br /><br />
+                        <asp:HyperLink ID="HyperLink2" runat="server" 
+                            NavigateUrl="http://www.pojo.com/yu-gi-oh" Target="_blank">Pojo's Yu-Gi-Oh! Web Site </asp:HyperLink>
+                        <br /><br />
+                        <asp:HyperLink ID="HyperLink3" runat="server" 
+                            NavigateUrl="http://www.yugioh-card.com/en/rulebook/" Target="_blank">Yugioh Rulebook </asp:HyperLink>
+                        <br /><br />
+                        <asp:HyperLink ID="HyperLink4" runat="server" 
+                            NavigateUrl="http://www.yugioh-card.com/en/limited/" Target="_blank" >Yugioh Ban List </asp:HyperLink>
+                        <br /><br />
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Index.aspx" 
+                            Target="_blank">Home</asp:HyperLink>
+                        <br /><br />
+                    </td>
+                    <td valign="top" width="80%" class="FormText"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" /></td>
+                </tr>
+            </table>
+        </div>
+       
+        <div id="Legal"><uc2:Legal ID="Legal1" runat="server" />
+        </div>
+    
+        <div id="Copyright"><uc1:Copyright id="Copyright1" runat="server" />
+        </div>
+
+    </form>
+</body>
+</html>
