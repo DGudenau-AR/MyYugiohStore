@@ -8,3 +8,9 @@ C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\MyYugiohStore.dll
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MyYugiohStore\obj\Debug\MyYugiohStore.pdb
+C:\Users\User\Desktop\MyYugiohStore\MyYugiohStore\bin\MyYugiohStore.dll.config
+C:\Users\User\Desktop\MyYugiohStore\MyYugiohStore\bin\MyYugiohStore.dll
+C:\Users\User\Desktop\MyYugiohStore\MyYugiohStore\bin\MyYugiohStore.pdb
+C:\Users\User\Desktop\MyYugiohStore\MyYugiohStore\obj\Debug\MyYugiohStore.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MyYugiohStore\MyYugiohStore\obj\Debug\MyYugiohStore.dll
+C:\Users\User\Desktop\MyYugiohStore\MyYugiohStore\obj\Debug\MyYugiohStore.pdb
